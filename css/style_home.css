@@ -1,0 +1,49 @@
+body {
+    background-color: bisque;
+    font-family: cursize;
+}
+
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.logo-box {
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 200px;
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+    margin: auto;
+    box-shadow: 10px 010px 5px;
+    border-radius: 25px;
+}
+
+.logo-box img{
+    height: 100px;
+    grid-column: 1/2;
+    display: block;
+    margin: auto;
+}
+
+.logo-box h1{
+    grid-column: 2/3;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    margin-left: 230px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    box-shadow: 10px 010px 5px;
+    border-radius: 25px;
+}
