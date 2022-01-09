@@ -1,6 +1,6 @@
 body {
     background-color: bisque;
-    font-family: cursize;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #content {
@@ -29,6 +29,8 @@ body {
 .logo-box h1{
     grid-column: 2/3;
     margin: auto;
+    font-weight: 700;
+    color: white;
 }
 
 h2 {
@@ -46,4 +48,20 @@ footer {
     margin: auto;
     box-shadow: 10px 010px 5px;
     border-radius: 25px;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 30px;
+    padding:0;
+    padding-top: 30px;
+    text-align: center;
+    Color: white;
+}
+
+h4{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    Color: Yellow;
 }
