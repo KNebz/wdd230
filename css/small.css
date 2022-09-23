@@ -1,6 +1,7 @@
 body {
     background-color: bisque;
     font-family: 'Poppins', sans-serif;
+    padding: 5%;
 }
 
 #content {
@@ -10,7 +11,7 @@ body {
 
 .logo-box {
     background-color: cornflowerblue;
-    width: 500px;
+    width: 90%;
     height: 200px;
     grid-template-columns: 1fr 2fr;
     display: grid;
@@ -37,13 +38,16 @@ h2 {
     text-align: center;
 }
 
-li {
-    margin-left: 230px;
+ul {
+    display: block;
+    width: 90%;
+    list-style-type: disc;
+    margin: auto;
 }
 
 footer {
     background-color: cornflowerblue;
-    width: 500px;
+    width: 90%;
     height: 100px;
     margin: auto;
     box-shadow: 10px 010px 5px;

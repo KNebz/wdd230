@@ -1,0 +1,29 @@
+@media only screen and (min-width: 32.5em) {
+    
+    .logo-box {
+        background-color: cornflowerblue;
+        width: 500px;
+        height: 200px;
+        grid-template-columns: 1fr 2fr;
+        display: grid;
+        margin: auto;
+        box-shadow: 10px 010px 5px;
+        border-radius: 25px;
+    }
+    
+    ul {
+        display: block;
+        width: 500px;
+        list-style-type: disc;
+        margin: auto;
+    }
+
+    footer {
+        background-color: cornflowerblue;
+        width: 500px;
+        height: 100px;
+        margin: auto;
+        box-shadow: 10px 010px 5px;
+        border-radius: 25px;
+    }
+}
