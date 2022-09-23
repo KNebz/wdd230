@@ -1,0 +1,78 @@
+* { -moz-box-sizing: border-box;
+-webkit-box-sizing: border-box; box-sizing:
+border-box; }
+
+html {-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;}
+
+/* body rules here */
+body {
+    font-family: 'Secular One', sans-serif;
+    font-size: 16px;
+}
+
+/* header rules here */
+header {
+    background-color: #0E6251;
+    color:antiquewhite;
+    padding: 1rem 2%;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+header h2 {
+    margin: 0;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+/* main rules here */
+main {
+    padding: 1rem 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid #bbb;
+    padding: 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+main h3 {
+    background-color: #148F77; 
+    color:antiquewhite;
+    text-align: center; 
+    margin-top: 0;
+    padding: 1rem;
+
+}
+
+main h4 {
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+}
+
+main a {
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+}
+
+main figure img {width: 100%;}
+main figure{
+    width: 100%;
+    margin: 0;
+}
+main figcaption {text-align: center; font-size:
+.8rem;}
+
+main section p{
+    padding: 0 1rem;
+    font-family: Verdana;
+}
+
+
