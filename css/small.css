@@ -42,12 +42,7 @@ ul {
     display: block;
     width: 90%;
     list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
-    padding-inline-start: 5%;
-    padding-inline-end: 5%
+    margin: auto;
 }
 
 li {

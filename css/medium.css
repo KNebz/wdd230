@@ -15,7 +15,7 @@
         display: block;
         width: 500px;
         list-style-type: disc;
-        margin-block: auto;
+        margin: auto;
     }
 
     footer {
