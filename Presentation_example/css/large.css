@@ -1,0 +1,12 @@
+/* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: repeat( 3, 300px);
+    margin-top: 2vw;
+}
+
+
+} /*end large */
