@@ -67,14 +67,14 @@ table td{
 }
 
 .siteheader {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Secular One', sans-serif;
     background-color: red;
     color: #eee;
     font-size: 40px;
 }
 
 .primarynavigation {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Secular One', sans-serif;
     background-color: rgb(253, 39, 39);
     color: #eee;
     font-size: 30px;
