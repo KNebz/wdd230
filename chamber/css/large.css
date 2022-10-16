@@ -30,6 +30,10 @@ nav ul li a {
     height: 100%;
 }
 
+.box1 img{
+    height: 100%;
+}
+
 .box2{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
@@ -40,17 +44,23 @@ nav ul li a {
 .box3 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    width: 100%;
+    height: 100%;
 }
 
 .box4 {
     grid-column: 2 / 4;
     grid-row: 3 / 4;
+    width: 100%;
+    height: 100%;
 
 }
 
 .box5 {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
+    width: 100%;
+    height: 100%;
 
 }
 

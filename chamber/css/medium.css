@@ -44,6 +44,24 @@
     height: 300px;
     width: 100%;
     margin: 0 0;
+    text-align: center;
+    padding: 2vw;
+    box-shadow: 0 0 10px;
+    border-radius: 0.25vw;
+    overflow: hidden;
+}
+
+.join{
+    display: block;
+    padding: 0.5em 3vw;
+    background-color: rgb(170, 11, 11);
+    text-align: center;
+    text-decoration: none;
+    color: #eee;
+    border-radius: 0.5em;
+    overflow: hidden;
+    box-shadow: 0 0 10px;
+    font-size: 2em;
 }
 
 .box6{
@@ -51,6 +69,7 @@
     grid-column: 1 / 4;
     grid-row: 3 / 4;
     margin: 0 0;
+    height: 300px;
 }
 
 

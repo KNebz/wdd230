@@ -62,4 +62,21 @@ var lastModified = document.querySelector("#lastModified");
 yr.textContent = "©" + year
 lastModified.textContent = "Last Modified:" + document.lastModified
 
+const today = new Date();
+console.log(today);
+
+const dayNumber = today.getDay();
+console.log(dayNumber);
+
+const element = document.getElementById("message");
+
+if (dayNumber == 1 ||
+    dayNumber == 2) {
+    console.log("Today is Monday or Tuesday")
+    element.classList.add("showme")
+} else {
+    console.log("Today is not Monday or Tuesday")
+    element.classList.add("hideme")
+}
+
 
