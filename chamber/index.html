@@ -5,7 +5,6 @@
 <meta name="description" content="Fill Me In">
 <meta name="author" content="Kelly Nebeker">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
-<link rel="shortcut icon" href="favicon.ico">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
@@ -37,7 +36,7 @@
 <body>
 
     <header>
-        <img id="logo" src="images/logo.png" alt="logo">
+        <img id="logo" src="images/logo.webp" alt="logo">
         <div>
             <h1>Christmas Chamber of Commerce</h1>
             <h2>It's Always Christmas Here</h2>
@@ -55,15 +54,24 @@
                 <li><a href="directory">Directory</a></li>
                 <li><a href="join">Join</a></li> 
                 <li><a href="contact">Contact</a></li>  
+                <img id="icon" src="images/facebook_icon.png">
+                <img id="icon" src="images/instagram_icon.png">
             </ul>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i> 
     </nav>
 
     <div id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
 
     <main>
-       
+
+        <figure class="myphoto">
+            <img src="images/herosrc.jpg" alt="herosrc" sizes="96vw"
+            srcset="images/herosrc400.jpg 400w,
+                    images/herosrc650.jpg 650w,
+                    images/herosrc900.jpg 900w,
+                    images/herosrc.jpg 1050w">
+        <figcaption>Hero Image</figcaption>
+        </figure>
+
         <div class="wrapper">
             <div class="box1">
                 <picture>
@@ -82,11 +90,11 @@
             </div>
             <div class="box3">
                 <h3>Local Weather</h3>
-                <img src="images/sun.png">
-                <p class="temp">83°</p>
-                <p class="weather">SUNNY</p>
-                <p class="windspeed">Wind Speed: 10 MPH</p>
-                <p class="windchill">Wind Chill: N/A</p>
+                <img class="sunny" src="images/sun.png">
+                <div class="temp"><span id="temp1">49</span>°F</div>
+                <span class="weather">SUNNY</span>
+                <div class="windspeed"><span class="windspeedlabel">Wind Speed</span>: <span id="windspeed1">10</span> mph</div>
+                <div class="windchill"><span class="windchilllabel">Wind Chill</span>: <span id="windchill1"></span> °F</div>
             </div>
             <div class="box4">
                 <h3>News Release</h3>
@@ -129,7 +137,7 @@
     </main>
 
     <footer>
-        <img id="logo" src="images/logo.png" alt="logo">
+        <img id="logo" src="images/logo.webp" alt="logo">
         <p>Christmas Chamber of Commerce</p>
         <p>18976 E Hwy 50</p>
         <p>Christmas, Florida 32839</p>
@@ -148,6 +156,6 @@
     </footer>
     
 <script src="js/scripts.js"></script>
-<script src="https://kit.fontawesome.com/983d8d97bd.js" crossorigin="anonymous"></script>
+<script src="js/windchill.js"></script>
 </body>
 </html>
