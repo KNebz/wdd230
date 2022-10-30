@@ -124,12 +124,6 @@ nav ul.open {display: block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-.icon {
-    width: 5px;
-    height: 5px;
-    float: right;
-}
-
 div#message {
     margin-top: 10px;
     text-align: center;
@@ -146,6 +140,27 @@ div.hideme {display: none;}
 main{
     margin: 2vw;
 }
+
+div.discover{
+    display: block;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+img[data-srcset] {
+    filter: blur(0.2em);
+}
+
+div.discover img{
+    width: 75%;
+    margin: 2vw 10vw;
+}
+
+div.discover img:hover{
+    width: 90%;
+    margin: 2vw;
+}
+
 
 .wrapper {
     display: flex;

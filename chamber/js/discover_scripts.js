@@ -1,6 +1,6 @@
 
 // get all imgs with data-src attribute
-const imagesToLoad = document.querySelectorAll("img[data-src]");
+const imagesToLoad = document.querySelectorAll("img[data-srcset]");
 
 //optional parameters being set for the IntersecionalObserver
 const imgOptions = {
@@ -9,8 +9,8 @@ const imgOptions = {
 };
 
 const loadImages = (image) => {
-    image.setAttribute('src', image.getAttribute('data-src'));
-    image.onload = () => {image.removeAttribute('data-src');};
+    image.setAttribute('srcset', image.getAttribute('data-srcset'));
+    image.onload = () => {image.removeAttribute('data-srcset');};
 };
 
 //first check to see if Intersection Observer is supported
@@ -33,3 +33,18 @@ else {
         loadImages(img);
     });
 }
+
+const visitDisplay = document.querySelector(".visitDisplay");
+
+let currentVisit = new Date(2022, 11, 05);
+console.log(currentVisit);
+let previousVisit = Date.parse(window.localStorage.getItem("visitDate"));
+console.log(previousVisit);
+
+let visitTime = (currentVisit.getTime() - previousVisit) / (1000 * 3600 * 24);
+
+console.log(visitTime);
+
+visitDisplay.textContent = visitTime;
+
+localStorage.setItem("visitDate", currentVisit);
