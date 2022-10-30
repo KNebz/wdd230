@@ -79,4 +79,3 @@ if (dayNumber == 1 ||
     element.classList.add("hideme")
 }
 
-

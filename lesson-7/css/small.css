@@ -147,6 +147,25 @@ main{
     margin: 2vw;
 }
 
+.discover{
+    display: block;
+    align-items: center;
+    margin: 10vw 2vw;
+}
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+.discover img {
+    height: 300px;
+    width: 400px; 
+    display: block;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+
 .wrapper {
     display: flex;
     flex-direction: column;
