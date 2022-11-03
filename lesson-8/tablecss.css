@@ -44,3 +44,7 @@ td {
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
 }
+
+h1 {
+	text-align: center;
+}
