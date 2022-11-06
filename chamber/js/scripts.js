@@ -79,3 +79,12 @@ if (dayNumber == 1 ||
     element.classList.add("hideme")
 }
 
+var submitDate = document.querySelector("#submitdate")
+
+const submition = function () {
+    submitDate.textContent = fullDate;
+};
+
+document.querySelector("#joinform").onsubmit = submition();
+
+console.log(submitDate.textContent);
