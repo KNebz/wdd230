@@ -81,7 +81,10 @@
     height: 300px;
 }
 
-
+div.discover img:hover{
+    width: 90%;
+    margin: 2vw;
+}
 
 
 } /* end medium */

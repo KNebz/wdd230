@@ -147,13 +147,13 @@ main{
 
 form fieldset {
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 1px solid rgb(170, 11, 11);
     border-radius: 10px;
     padding: .5rem 2%;
 
 }
 form legend {
-    color: #445ba9;
+    color: rgb(170, 11, 11);
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -174,7 +174,7 @@ form label.top input, form label.top select {
     color: #555;
     width: 100%;
     max-width: 20rem;
-    background-color: rgba(0,0,0,0,0.1)
+    background-color: rgba(0,0,0,0)
 
 }
 form label.sbs {
@@ -221,12 +221,6 @@ div.discover img{
     width: 75%;
     margin: 2vw 10vw;
 }
-
-div.discover img:hover{
-    width: 90%;
-    margin: 2vw;
-}
-
 
 .wrapper {
     display: flex;
@@ -334,7 +328,7 @@ div.discover img:hover{
     grid-column: 1/3;
     grid-row: 3/4;
     text-align: center;
-    border-bottom: 1 px solid rgba(0,0,0,0.5);
+    border-bottom: 1 px solid rgba(0,0,0);
 }
 
 
