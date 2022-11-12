@@ -419,6 +419,71 @@ div.discover img{
     width: 100px;
 }
 
+#business {
+   /*-- background-color: rgb(226, 216, 216);--*/
+    padding: 10px;
+}
+
+
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: rgba(255, 169, 169, 0.808);
+    box-shadow: 0 0 10px #777;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    min-width: fit-content;
+    max-width: 320px;
+}
+
+section img {
+    width: auto;
+    max-width: 325px;
+    /*--box-shadow: 0 0 30px #777;--*/
+    height: 200px;
+    /*--border: 1px solid #333;--*/
+    margin: 0.5rem;
+}  
+
+.grid section {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.menu{
+   margin: 0px auto 0px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   text-align: center;
+}
+
+.grid_select, .list_select {
+    background-color: rgb(252, 149, 149);
+    width: auto;
+    height: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section > * {
+    margin: 0 1rem;
+    text-align: left;
+    align-items: left;
+    width: 100%;
+}
+
 footer{
     display: grid;
     text-align: center;

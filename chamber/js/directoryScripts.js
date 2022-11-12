@@ -1,6 +1,6 @@
 
-const requestURL = 'js/business.json';
-const cards = document.querySelector('.cards');
+const requestURL = 'https://knebz.github.io/wdd230/chamber/js/business.json';
+const cards = document.querySelector('.grid', '.list');
 
 fetch(requestURL)
   .then(function (response) {
@@ -8,17 +8,18 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject); 
-    const bussinesses = jsonObject['bussinesses'];
-    bussinesses.forEach(displayBusiness);
+    const businesses = jsonObject['businesses'];
+    console.table(businesses);
+    businesses.forEach(displayBusinesses);
   });
 
-function displayBusiness(business) {
+function displayBusinesses(business) {
     // Create elements to add to the document
   let card = document.createElement('section');
   let h2 = document.createElement('h2');
   let address = document.createElement('p');
   let phoneNumber = document.createElement('p');
-  let website = document.createElement('p');
+  let website = document.createElement('a');
   let portrait = document.createElement('img');
 
 
@@ -26,9 +27,10 @@ function displayBusiness(business) {
   h2.textContent = `${business.name}`;
   address.textContent = `${business.address}`;
   phoneNumber.textContent = `${business.phoneNumber}`;
-  website.textcontent = `${business.website}`
+  website.textContent = "Click to Company Website"
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
+  website.setAttribute('href', business.website)
   portrait.setAttribute('src', business.imgLoc);
   portrait.setAttribute('alt', `Icon for ${business.name}`);
   portrait.setAttribute('loading', 'lazy');
@@ -38,10 +40,29 @@ function displayBusiness(business) {
   card.appendChild(h2);
   card.appendChild(address);
   card.appendChild(phoneNumber);
-  card.appendChild(`<a><href=${website}></a>`)
+  card.appendChild(website)
  
 
   // Add/append the existing HTML div with the cards class with the section(card)
-  document.querySelector('div.cards').appendChild(card);
+  document.getElementById("business").appendChild(card);
 
+}
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector("#business");
+
+// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
 }
