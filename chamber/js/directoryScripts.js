@@ -27,7 +27,7 @@ function displayBusinesses(business) {
   h2.textContent = `${business.name}`;
   address.textContent = `${business.address}`;
   phoneNumber.textContent = `${business.phoneNumber}`;
-  website.textContent = "Click to Company Website"
+  website.textContent = "Visit Our Website"
 
   // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
   website.setAttribute('href', business.website)

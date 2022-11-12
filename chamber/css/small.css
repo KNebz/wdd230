@@ -437,7 +437,7 @@ section {
     max-width: 320px;
 }
 
-section img {
+.grid section img {
     width: auto;
     max-width: 325px;
     /*--box-shadow: 0 0 30px #777;--*/
@@ -473,6 +473,12 @@ section img {
     flex-direction: column;
 }
 
+.list section{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
 .list section img {
     display: none;
 }
@@ -481,7 +487,6 @@ section img {
     margin: 0 1rem;
     text-align: left;
     align-items: left;
-    width: 100%;
 }
 
 footer{

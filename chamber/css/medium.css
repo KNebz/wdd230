@@ -91,9 +91,31 @@ div.discover img:hover{
     align-items: center;
     flex-direction: row;
     justify-content: left;
+    width: 100%;
+    max-width: 100%;
 }
 
+.list section img {
+    display: block;
+    width: auto;
+    height: 100px;
+    margin: 0.5rem;
+}
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+}
+
+.grid section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid section > * {
+    margin: 0.1rem;
+}
 
 
 } /* end medium */
