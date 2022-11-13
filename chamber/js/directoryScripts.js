@@ -1,5 +1,5 @@
 
-const requestURL = 'https://knebz.github.io/wdd230/chamber/js/business.json';
+const requestURL = 'https://knebz.github.io/wdd230/chamber/js/data.json';
 const cards = document.querySelector('.grid', '.list');
 
 fetch(requestURL)
