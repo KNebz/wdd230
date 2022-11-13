@@ -106,11 +106,14 @@ div.discover img:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     align-items: center;
+    column-gap: 50px;
 }
 
 .grid section {
     flex-direction: column;
     text-align: center;
+    height: 400px;
+    width: 250px;
 }
 
 .grid section > * {
