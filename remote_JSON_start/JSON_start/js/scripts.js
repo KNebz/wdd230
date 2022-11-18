@@ -8,7 +8,7 @@ fetch(apiURL)
     //Once it comes back, display it to the console.
     console.log(weatherInfo);
     
-    
+    document.getElementById('place').innerHTML=weatherInfo.name;
 
  }); //end of "then" fat arrow function
 
