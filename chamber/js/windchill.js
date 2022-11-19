@@ -19,7 +19,7 @@ fetch(apiURL)
     document.getElementById('weather_icon').src = icon_path;
     document.getElementById('weather').innerHTML = `<strong>${weatherInfo.weather[0].description}</strong>`;
 
- }); //end of "then" fat arrow function
+}); //end of "then" fat arrow function
 
 const input1 = document.querySelector('#currentTemp');
 const input2 = document.querySelector('#windSpeed1');
