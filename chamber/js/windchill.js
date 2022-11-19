@@ -25,6 +25,8 @@ const input1 = document.querySelector('#currentTemp');
 const input2 = document.querySelector('#windSpeed1');
 const windchill = document.querySelector('#windchill1');
 
+console.log(input1);
+
 var temp = parseFloat(input1.textContent);
 var windspeed = parseFloat(input2.textContent);
 
