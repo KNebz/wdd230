@@ -28,8 +28,8 @@ const windchill = document.querySelector('#windchill1');
 var temp = parseFloat(input1.textContent);
 var windspeed = parseFloat(input2.textContent);
 
-console.log(temp)
-console.log(windspeed)
+console.log(temp);
+console.log(windspeed);
 
 wcc = 35.74 + 0.6215*temp - 35.75*(windspeed**0.16) + 0.4275*temp*(windspeed**0.16);
 
