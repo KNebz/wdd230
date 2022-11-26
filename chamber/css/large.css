@@ -81,5 +81,29 @@ form label.sbs {
     padding: .4rem 0;
 }
 
+.contactpage {
+    display: grid;
+    grid-template-columns: 1fr 730px 1fr 1fr;
+    margin: 0 auto;
+}
+
+iframe {
+    grid-column: 2/3;
+    grid-row: 2/10;
+}
+
+.contactpage h2, p {
+    grid-column: 3/4;
+}
+
+.contactform {
+    grid-column: 2/3;
+    grid-row: 11/15;
+}
+
+.contactheader {
+    text-align: center;
+}
+
 
 } /*end large */
