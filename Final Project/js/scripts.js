@@ -62,29 +62,13 @@ var lastModified = document.querySelector("#lastModified");
 yr.textContent = "©" + year
 lastModified.textContent = "Last Modified:" + document.lastModified
 
-const today = new Date();
-console.log(today);
 
-const dayNumber = today.getDay();
-console.log(dayNumber);
+let day1 = daynames[d.getDay() +1];
+let day2 = daynames[d.getDay() +2];
+let day3 = daynames[d.getDay() +3];
 
-const element = document.getElementById("message");
+console.log(day1, day2, day3);
 
-if (dayNumber == 1 ||
-    dayNumber == 2) {
-    console.log("Today is Monday or Tuesday")
-    element.classList.add("showme")
-} else {
-    console.log("Today is not Monday or Tuesday")
-    element.classList.add("hideme")
-}
-
-var submitDate = document.querySelector("#submitdate")
-
-const submition = function () {
-    submitDate.textContent = fullDate;
-};
-
-document.querySelector("#joinform").onsubmit = submition();
-
-console.log(submitDate.textContent);
+document.querySelector(".forecastlabel1").textContent = day1;
+document.querySelector(".forecastlabel2").textContent = day2;
+document.querySelector(".forecastlabel3").textContent = day3;

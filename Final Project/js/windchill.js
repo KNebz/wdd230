@@ -29,8 +29,9 @@ fetch(apiforecastURL)
     //Once it comes back, display it to the console.
     console.log(forecastInfo);
     
-    document.getElementById('currentTemp').innerHTML=Math.round(weatherInfo.main.temp);
-    document.getElementById('humidity').innerHTML=Math.round(weatherInfo.main.humidity);
+    document.getElementById('forecastTemp1').innerHTML=Math.round(forecastInfo.list.1.main.temp);
+    document.getElementById('forecastTemp2').innerHTML=Math.round(forecastInfo.list.2.main.temp);
+    document.getElementById('forecastTemp3').innerHTML=Math.round(forecastInfo.list.3.main.temp);
 
 }); //end of "then" fat arrow function
 
