@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="Kelly Nebeker">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+
+
+<title>Christmas Chamber of Commerce</title>
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="images/logo.webp" alt="logo">
+        <div>
+            <h1>Bountiful Foods</h1>
+        </div>
+
+        <div class="date"></div>
+            
+    </header>
+
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li> 
+            </ul>
+    </nav>
+
+    <div class="cartbanner">You have <span id="cart"></span> in your cart. Check out on the fresh page!</div>
+
+    <main>
+        <div class="wrapper">
+            <div class="box1">
+                <picture>
+                    <img id="mainimg" src="images/christmastree.jpg" alt="christmas tree">
+                </picture>
+                <section class="calltoaction">
+                    <a href="join">MAKE YOUR OWN JUICE TODAY</a>
+                </section>
+            </div>
+            <div class="box2">
+                <h3>Fall Market</h3>
+                <img src="images/market.png" alt="basket image">
+                <p>Christmass Chamber of Commerce sponsored local market with stalls from hundreds of local vendors.</p>
+                <p>Saturday, November 18 @ 9am</p>
+                <a class="market" href="discover">Learn More</a>
+            </div>
+            <div class="box3">
+                <h3>Local Weather</h3>
+                <img id="weather_icon" src="images/sun.png" alt="weather icon">
+                <div class="temp"><span id="currentTemp">00</span>°F</div>
+                <span id="weather" style="text-transform: uppercase">SUNNY</span>
+                <div class="humidity"><span class="humiditylabel">Wind Speed</span>: <span id="humidity1">10</span>%</div>
+                <div class="windchill"><span class="windchilllabel">Wind Chill</span>: <span id="windchill1"></span> °F</div>
+            </div>
+            <div class="box4">
+                <h3>News Release</h3>
+                <p>As a chamber of commerce we are continually growing and becoming more and more prominent. Christmas, Florida was voted in the top 10 places in easter central florida to start a business. Christmas time is approaching and that means more visitors to the local post office. If you would like to advertise at the post office join the chamber of commerce and submit to the chamber the flyer design you would like. There is a set aside advertisement area for the chamber of commerce in the post office and we will put up your advertisement.</p>
+            </div>
+            <div class="box5">
+                <a class="join" href="join">Become a Member!</a>
+                <p>Becoming a member is easy with clear benefits</p> 
+                <p>Discover what we can do for you</p>
+            </div>
+            <div class="box6" id="spots">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="www.facebook.com"><img src="images/facebook_icon.png" alt="facebook"></a>
+            <a href="www.instagram.com"><img src="images/instagram_icon.png" alt="instagram"></a>
+            <a href="www.twitter.com"><img src="images/twitter_icon.png" alt="twitter"></a>
+        </div>
+        <img class="logo" src="images/logo.webp" alt="logo">
+        <p>Bountiful Foods</p>
+        <p>264 Carlsbad Village Dr</p>
+        <p>Carlsbad, CA 92008</p>
+        <p>support@bountifulfoods.com</p>
+        <p>760-222-5467</p>
+        <a href="https://www.google.com/maps/place/264+Fresco/@33.1580059,-117.3511144,20z/data=!4m13!1m7!3m6!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2sCarlsbad,+CA!3b1!8m2!3d33.1580933!4d-117.3505939!3m4!1s0x80dc720fb85e572b:0x4b473154ec8b8d47!8m2!3d33.1580923!4d-117.3516549">Location Map</a>
+        <p><span id="year"></span> &bull; Bountiful Foods &bull; Kelly Nebeker &bull; WDD 230 Project</p>
+        <p>&bull; <span id="lastModified"></span> &bull;</p>
+    </footer>
+    
+<script src="js/scripts.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/get.js"></script>
+</body>
+</html>

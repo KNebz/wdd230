@@ -1,0 +1,85 @@
+{
+    "businesses": [
+        {
+            "name": "Marge's Laundry",
+            "address": "2233 Hwy 50, Christmas, FL, 32839",
+            "phoneNumber": "407-777-5577",
+            "website": "www.margeslaundry.com",
+            "memberLvl": "Gold",
+            "imgLoc": "images/margelaundry.png"
+
+        },
+        {
+            "name": "Christmas Crafts",
+            "address": "2235 Hwy 50, Christmas, FL, 32839",
+            "phoneNumber": "407-777-5579",
+            "website": "www.christmascraftsstore.com",
+            "memberLvl": "Silver",
+            "imgLoc": "images/christmascrafts.png"
+
+        },
+        {
+            "name": "Hot Pot Heaven",
+            "address": "2239 Hwy 50, Christmas, FL, 32839",
+            "phoneNumber": "407-577-5577",
+            "website": "www.hotpotheaven.com",
+            "memberLvl": "Gold",
+            "imgLoc": "images/hotpot.png"
+
+        },
+        {
+            "name": "Hot Shot Billiards",
+            "address": "2225 Hwy 50, Christmas, FL, 32839",
+            "phoneNumber": "407-777-7777",
+            "website": "www.hotshotchristmas.com",
+            "memberLvl": "Bronze",
+            "imgLoc": "images/hotshotbilliards.png"
+
+        },
+        {
+            "name": "Children to Feed",
+            "address": "1574 Fig's Lane, Christmas, FL, 32839",
+            "phoneNumber": "407-777-FEED",
+            "website": "www.christmaschildren.com",
+            "memberLvl": "NFP",
+            "imgLoc": "images/childrentofeed.png"
+
+        },
+        {
+            "name": "Christmas Realty",
+            "address": "2230 Hwy 50, Christmas, FL, 32839",
+            "phoneNumber": "407-777-5555",
+            "website": "www.christmasrealty.com",
+            "memberLvl": "Gold",
+            "imgLoc": "images/christmasrealty.png"
+
+        },
+        {
+            "name": "Jason & Sons Taxes",
+            "address": "2200 Hwy 50, Christmas, FL, 32839",
+            "phoneNumber": "407-755-5577",
+            "website": "www.JsonsTax.com",
+            "memberLvl": "Gold",
+            "imgLoc": "images/taxaccountants.png"
+
+        },
+        {
+            "name": "Elephant Subs",
+            "address": "2202 Hwy 50, Christmas, FL, 32839",
+            "phoneNumber": "407-777-5555",
+            "website": "www.elephantsubs.com",
+            "memberLvl": "Gold",
+            "imgLoc": "images/elephantsubs.png"
+
+        },
+        {
+            "name": "Bugsy Malone Jewelry",
+            "address": "2301 Hwy 50, Christmas, FL, 32839",
+            "phoneNumber": "407-555-7777",
+            "website": "www.bugsymalonejewelry.com",
+            "memberLvl": "Bronze",
+            "imgLoc": "images/bugsymalonejewelry.png"
+
+        }
+    ]
+}
