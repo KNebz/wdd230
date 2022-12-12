@@ -1,5 +1,5 @@
 const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=92008,us&appid=d07b07d2266cbb3af1ad3a654ea37a12&units=imperial"
-const apiforecastURL="//api.openweathermap.org/data/2.5/forecast?lat=33.158092&lon=-117.350594,us&appid=d07b07d2266cbb3af1ad3a654ea37a12&units=imperial"
+const apiforecastURL="//api.openweathermap.org/data/2.5/forecast?zip=92008,us&appid=d07b07d2266cbb3af1ad3a654ea37a12&units=imperial"
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
