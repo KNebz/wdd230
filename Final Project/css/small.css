@@ -367,10 +367,19 @@ div.discover img{
 }
 
 .box5{
-    display: none;
+    border: 1px solid  rgba(0,0,0,0.5);
+    margin: 2vw 0;
+    background-color: rgb(252, 149, 149);
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    padding: 2vw;
+    box-shadow: 0 0 10px;
+    border-radius: 0.25vw;
+    overflow: hidden;
 }
 
-.box6{
+.ordercard{
     border: 1px solid  rgba(0,0,0,0.5);
     margin: 2vw 0;
     background-color: rgb(252, 149, 149);
