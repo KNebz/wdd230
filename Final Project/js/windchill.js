@@ -9,7 +9,7 @@ fetch(apiURL)
     console.log(weatherInfo);
     
     document.getElementById('currentTemp').innerHTML=Math.round(weatherInfo.main.temp);
-    document.getElementById('humidity').innerHTML=Math.round(weatherInfo.main.humidity);
+    document.getElementById('humidity1').innerHTML=Math.round(weatherInfo.main.humidity);
 
     const iconcode = weatherInfo.weather[0].icon;
     console.log(iconcode);
