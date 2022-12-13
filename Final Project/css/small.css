@@ -5,17 +5,17 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 h1{
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Asap', sans-serif;
     font-size: 30px;
-    color: red;
+    color: rgb(75, 3, 21);
     border-color: #111;
 }
 
 h2{
     margin: 0 2vw;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Arsenal', sans-serif;
     font-size: 25px;
-    color: red;
+    color: rgb(75, 3, 21);
     border-color: #111;
 }
 
@@ -25,31 +25,30 @@ h2{
 
 h3{
     margin: 0 2vw;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Arsenal', sans-serif;
     font-size: 20px;
-    color: red;
+    color: rgb(75, 3, 21);
     border-color: #111;
 }
 
 p{
     margin: 0 2vw;
-    font-family: 'Lora', serif;
+    font-family: 'Asap', sans-serif;
     border-color: #111;
 }
 
 header{
     display: grid;
     grid-template-columns: 125px auto;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(170, 11, 11);
-    color: #eee;
+    background-color: rgba(235, 129, 8, 0.815);
+    color: rgb(75, 3, 21);
 }
 
 header h1{
     margin: 0 2vw;
     padding-left: 2vw;
     padding-top: 2vw;
-    color: #eee;
+    color: rgb(75, 3, 21);
     font-size: 40px;
     text-align: center;
     font-family: 'Courgette', cursive;
@@ -77,7 +76,7 @@ header img{
 .date {
 	margin: 0.5rem 2vw;
 	padding: 0.75rem;
-    background-color: rgb(170, 11, 11);
+    /*background-color: rgba(235, 129, 8, 0.815);*/
     width: 100vw;
     text-align: center;
 }
@@ -87,10 +86,10 @@ nav button {
     background: transparent;
     border: none;
     font-size: 2rem;
-    color: #eee;
+    color: rgb(75, 3, 21);
 }
 nav {
-    background-color: rgb(170, 11, 11);
+    background-color: rgba(235, 129, 8, 0.815);
     font-family: 'Roboto', sans-serif;
     font-size: 30px;
     display: flex;
@@ -106,14 +105,14 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #eee;
+    color: rgb(75, 3, 21);
     border-top: 1px solid rgba(0,0,0,0.5);
     font-size: .8rem;
 }
 
 nav ul li.active a {
     background-color: rgba(0,0,0,0.2);
-    color: #fff;
+    color: rgb(75, 3, 21);
 }
 
 nav ul li a:hover {
@@ -132,21 +131,15 @@ nav ul.open {display: block;}
     justify-content: right;
 }
 
-div#message {
-    margin-top: 10px;
-    text-align: center;
-    border-bottom: 10px  rgb(170, 11, 11);
-    font-size: 20px;
-    font-family: 'Secular One', sans-serif;
-    font-size: 20px;
-    color: red;
-    border-color: #111;
+body {
+    background-color: rgba(235, 129, 8, 0.815);
+    padding: 0;
+    margin: 0;
 }
-div.showme {display:block;}
-div.hideme {display: none;}
 
 main{
     margin: 2vw;
+    background-color: rgba(235, 129, 8, 0.815);
 }
 
 form fieldset {
@@ -241,6 +234,7 @@ div.discover img{
     background-color: rgb(252, 149, 149);
     height: 300px;
     position: relative;
+    box-shadow: 0 0 10px;
 }
 
 .box1 img{
@@ -253,8 +247,8 @@ div.discover img{
     padding: 0.5em 1rem;
     top: 40px;
     right: 40px;
-    background-color: #eee;
-    border: 1px solid rgba(0,0,0,0.5);
+    background-color: rgba(250, 170, 78, 0.5);
+    border: 1px solid rgba(0,0,0,0.75);
     box-shadow: 0 0 30px;
     border-radius: 0.5em;
     overflow: hidden;
@@ -262,21 +256,21 @@ div.discover img{
 
 .calltoaction a{
     text-decoration: none;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Arsenal', sans-serif;
     font-size: 20px;
-    color:  red;
+    color: rgb(75, 3, 21);
 }
 
 .box2{
-    border: 1px solid  rgba(0,0,0,0.5);
+    /*border: 1px solid  rgba(0,0,0,0.5);*/
     margin: 2vw 0;
-    background-color: rgb(252, 149, 149);
-    height: 300px;
+    background-color: rgba(235, 129, 8, 0.815);
+    height: 150px;
     text-align: center;
     padding: 2vw;
-    box-shadow: 0 0 10px;
+    /*box-shadow: 0 0 10px;
     border-radius: 0.25vw;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 
 .box2 img{
@@ -297,16 +291,16 @@ div.discover img{
 }
 
 .box3{
-    border: 1px solid  rgba(0,0,0,0.5);
+    /*border: 1px solid  rgba(0,0,0,0.5);*/
     margin: 2vw 0;
-    background-color: rgb(252, 149, 149);
+    background-color: rgba(235, 129, 8, 0.815);
     height: 300px;
     width: 100%;
     text-align: center;
     padding: 2vw;
-    box-shadow: 0 0 10px;
+    /*box-shadow: 0 0 10px;
     border-radius: 0.25vw;
-    overflow: hidden;
+    overflow: hidden;*/
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 2fr 1fr 1fr 1fr;
@@ -354,44 +348,44 @@ div.discover img{
 }
 
 .box4{
-    border: 1px solid  rgba(0,0,0,0.5);
+    /*border: 1px solid  rgba(0,0,0,0.5);*/
     margin: 2vw 0;
-    background-color: rgb(252, 149, 149);
-    height: 300px;
+    background-color: rgba(235, 129, 8, 0.815);
+    height: 400px;
     width: 100%;
     text-align: center;
     padding: 2vw;
-    box-shadow: 0 0 10px;
+    /*box-shadow: 0 0 10px;
     border-radius: 0.25vw;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 
 .box5{
-    border: 1px solid  rgba(0,0,0,0.5);
+    /*border: 1px solid  rgba(0,0,0,0.5);*/
     margin: 2vw 0;
-    background-color: rgb(252, 149, 149);
+    background-color: rgba(235, 129, 8, 0.815);
     height: 300px;
     width: 100%;
     text-align: center;
     padding: 2vw;
-    box-shadow: 0 0 10px;
+    /*box-shadow: 0 0 10px;
     border-radius: 0.25vw;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 
 .ordercard{
-    border: 1px solid  rgba(0,0,0,0.5);
+    /*border: 1px solid  rgba(0,0,0,0.5);*/
     margin: 2vw 0;
-    background-color: rgb(252, 149, 149);
-    height: 600px;
+    background-color: rgba(235, 129, 8, 0.815);
+    height: 300px;
     width: 100%;
     display: flex;
     flex-direction: column;
     Padding: 2vw;
     text-align: center;
-    box-shadow: 0 0 10px;
+    /*box-shadow: 0 0 10px;
     border-radius: 0.25vw;
-    overflow: hidden;
+    overflow: hidden;*/
 }
 
 .box7{
