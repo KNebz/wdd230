@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="Kelly Nebeker">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arsenal:wght@700&family=Asap:wght@300;500;700&display=swap" rel="stylesheet">
+
+
+<title>Bountiful Foods Juices</title>
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="images/juice_logo.webp" alt="Juice logo">
+            <h1>Bountiful Foods</h1>
+        </div>
+
+        <div class="date"></div>
+            
+    </header>
+
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active"><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li> 
+            </ul>
+    </nav>
+    
+    <main>
+        <h1>Select your drink mix!</h1>
+            <form class="joinform" method="get" action="thankyou.html">
+
+            <fieldset>
+                <legend>Order Form</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                <label class="top">Fruit 1</label> <Select id="fruit1_dropdown" name="fruit1"></Select>
+                <label class="top">Fruit 2</label> <Select id="fruit2_dropdown" name="fruit2"></Select>
+                <label class="top">Fruit 3</label> <Select id="fruit3_dropdown" name="fruit3"></Select>
+            </fieldset>
+
+            <span id="submitdate"></span>    
+            <input type="submit" value="Submit your order" class="submitBtn" />
+
+    
+    
+        </form>   
+            
+        </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="www.facebook.com"><img src="images/facebook_icon.png" alt="facebook"></a>
+            <a href="www.instagram.com"><img src="images/instagram_icon.png" alt="instagram"></a>
+            <a href="www.twitter.com"><img src="images/twitter_icon.png" alt="twitter"></a>
+        </div>
+        <img class="logo" src="images/juice_logo.webp" alt="Juice logo">
+        <p>Bountiful Foods</p>
+        <p>264 Carlsbad Village Dr</p>
+        <p>Carlsbad, CA 92008</p>
+        <p>support@bountifulfoods.com</p>
+        <p>760-222-5467</p>
+        <a href="https://www.google.com/maps/place/264+Fresco/@33.1580059,-117.3511144,20z/data=!4m13!1m7!3m6!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!2sCarlsbad,+CA!3b1!8m2!3d33.1580933!4d-117.3505939!3m4!1s0x80dc720fb85e572b:0x4b473154ec8b8d47!8m2!3d33.1580923!4d-117.3516549">Location Map</a>
+        <p><span id="year"></span> &bull; Bountiful Foods &bull; Kelly Nebeker &bull; WDD 230 Project</p>
+        <p>&bull; <span id="lastModified"></span> &bull;</p>
+    </footer>
+    
+<script src="js/scripts.js"></script>
+<script src="js/get.js"></script>
+</body>
+</html>

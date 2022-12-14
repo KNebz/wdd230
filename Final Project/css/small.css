@@ -139,7 +139,7 @@ body {
 
 main{
     margin: 2vw;
-    background-color: rgba(235, 129, 8, 0.815);
+    /*background-color: rgba(235, 129, 8, 0.815);*/
 }
 
 form fieldset {
@@ -387,67 +387,6 @@ div.discover img{
     border-radius: 0.25vw;
     overflow: hidden;*/
 }
-
-.box7{
-    border: 1px solid  rgba(0,0,0,0.5);
-    margin: 0;
-    background-color: rgb(252, 149, 149);
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding: 2vw;
-    box-shadow: 0 0 10px;
-    border-radius: 0.25vw;
-    overflow: hidden;
-}
-
-.box7 img{
-    height: 100px;
-    width: 100px;
-}
-
-.box8{
-    border: 1px solid  rgba(0,0,0,0.5);
-    margin: 0;
-    background-color: rgb(252, 149, 149);
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    padding: 2vw;
-    box-shadow: 0 0 10px;
-    border-radius: 0.25vw;
-    overflow: hidden;
-}
-
-.box8 img{
-    height: 100px;
-    width: 100px;
-}
-
-.box9{
-    border: 1px solid  rgba(0,0,0,0.5);
-    margin: 0;
-    background-color: rgb(252, 149, 149);
-    height: 100%;
-    width: 100%;
-    display: none;
-    text-align: center;
-    padding: 2vw;
-    box-shadow: 0 0 10px;
-    border-radius: 0.25vw;
-    overflow: hidden;
-}
-
-.box9 img{
-    height: 100px;
-    width: 100px;
-}
-
-#business {
-   /*-- background-color: rgb(226, 216, 216);--*/
-    padding: 10px;
-}
-
 
 section {
     margin: 0.25rem;
