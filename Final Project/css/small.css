@@ -129,6 +129,9 @@ nav ul.open {display: block;}
 
 .social-media {
     justify-content: right;
+    width: 330px;
+    float: left;
+    margin-left: 1145px;
 }
 
 body {
@@ -472,6 +475,7 @@ footer img{
     padding: 0;
     border-radius: 0.5rem;
     overflow: hidden;
+    float: right;
 }
 
 footer ul {
