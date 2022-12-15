@@ -45,7 +45,7 @@
     
     <main>
         <h1>Select your drink mix!</h1>
-            <form class="joinform" method="get">
+            <form class="joinform" method="get" onsubmit="clickCounter()">
 
             <fieldset>
                 <legend>Order Form</legend>
@@ -59,9 +59,7 @@
             </fieldset>
 
             <span id="submitdate"></span>    
-            <input type="submit" value="Submit your order" class="submitBtn" />
-
-    
+            <input type="submit" value="Submit your order" id="submitBtn" class="submitBtn" />
     
         </form>   
             

@@ -1,7 +1,7 @@
 
 const URL = 'https://knebz.github.io/wdd230/Final%20Project/js/fruit.json';
 
-console.log(URL);
+//console.log(URL);
 
 let dropdown1 = document.getElementById('fruit1_dropdown');
 let dropdown2 = document.getElementById('fruit2_dropdown');
@@ -11,7 +11,7 @@ let addOption = document.createElement("option");
 function makeDropDown (info) {
   for (let i=0; i < info.length; i++) {
     let fruits = info[i].name;
-    console.log(fruits);
+    //console.log(fruits);
     option = document.createElement("option");
     option.text = fruits;
     option.value = fruits;
@@ -19,7 +19,7 @@ function makeDropDown (info) {
   }
   for (let i=0; i < info.length; i++) {
     let fruits = info[i].name;
-    console.log(fruits);
+    //console.log(fruits);
     option = document.createElement("option");
     option.text = fruits;
     option.value = fruits;
@@ -27,7 +27,7 @@ function makeDropDown (info) {
   }
   for (let i=0; i < info.length; i++) {
     let fruits = info[i].name;
-    console.log(fruits);
+    //console.log(fruits);
     option = document.createElement("option");
     option.text = fruits;
     option.value = fruits;
@@ -47,3 +47,18 @@ async function pullData() {
 }
 
 pullData();
+
+function clickCounter() {
+  if (typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+      alert('Form Submitted!');
+    } else {
+      localStorage.clickcount = 1;
+    }
+  }
+  console.log(localStorage.clickCounter);
+}
+
+console.log(localStorage.clickCounter);
+document.getElementById("orderNum").innerHTML = "You have currently ordered " + localStorage.clickcount + " specialty drinks!";
