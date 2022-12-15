@@ -72,3 +72,16 @@ console.log(day1, day2, day3);
 document.querySelector(".forecastlabel1").textContent = day1;
 document.querySelector(".forecastlabel2").textContent = day2;
 document.querySelector(".forecastlabel3").textContent = day3;
+
+function clickCounter() {
+    if (typeof(Storage) !== "undefined") {
+      if (localStorage.clickcount) {
+        localStorage.clickcount = Number(localStorage.clickcount)+1;
+        alert('Form Submitted!');
+      } else {
+        localStorage.clickcount = 1;
+      }
+    }
+  }
+
+document.getElementById("orderNum").innerHTML = "You have currently ordered " + localStorage.clickcount + " specialty drinks!";

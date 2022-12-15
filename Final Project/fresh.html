@@ -44,8 +44,8 @@
     </nav>
     
     <main>
-        <h1>Select your drink mix!</h1>
-            <form class="joinform" method="get" onsubmit="clickCounter()">
+        <h1 class="freshheader">Select your drink mix!</h1>
+            <form class="joinform" id="orderForm" method="get" onsubmit="clickCounter()">
 
             <fieldset>
                 <legend>Order Form</legend>
@@ -55,13 +55,17 @@
                 <label class="top">Fruit 1</label> <Select id="fruit1_dropdown" name="fruit1"></Select>
                 <label class="top">Fruit 2</label> <Select id="fruit2_dropdown" name="fruit2"></Select>
                 <label class="top">Fruit 3</label> <Select id="fruit3_dropdown" name="fruit3"></Select>
-                <label class="top">Special Instructions<input type="text" name="fname" class="comments" required></label>
+                <label class="top">Special Instructions<textarea rows="10" cols="20" type="text" name="special" class="comments" required></textarea></label>
             </fieldset>
+
+            <div id="output">
+                <span id="formInfo"></span>
+            </div>
 
             <span id="submitdate"></span>    
             <input type="submit" value="Submit your order" id="submitBtn" class="submitBtn" />
     
-        </form>   
+        </form> 
             
         </main>
 

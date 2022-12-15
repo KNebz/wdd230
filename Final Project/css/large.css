@@ -16,11 +16,8 @@ nav ul li a {
     padding: .5rem 1rem;
 }
 
-.wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(3, 300px);
-    margin-top: 2vw;
+main h1 {
+    text-align: center;
 }
 
 .box1{
@@ -47,6 +44,10 @@ nav ul li a {
     width: 100%;
     height: 100%;
     display: grid;
+}
+
+.box3 img{
+    margin: auto;
 }
 
 .box4 {
