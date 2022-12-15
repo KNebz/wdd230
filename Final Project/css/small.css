@@ -453,33 +453,6 @@ section {
    text-align: center;
 }
 
-.grid_select, .list_select {
-    background-color: rgb(252, 149, 149);
-    width: auto;
-    height: 20px;
-}
-
-.list {
-    display: flex;
-    flex-direction: column;
-}
-
-.list section{
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 100%;
-}
-
-.list section img {
-    display: none;
-}
-
-.list section > * {
-    margin: 0 1rem;
-    text-align: left;
-    align-items: left;
-}
-
 footer{
     display: block;
     text-align: center;

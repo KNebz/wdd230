@@ -67,6 +67,8 @@ let day1 = daynames[d.getDay() +1];
 let day2 = daynames[d.getDay() +2];
 let day3 = daynames[d.getDay() +3];
 
+console.log(d.getDay());
+
 console.log(day1, day2, day3);
 
 document.querySelector(".forecastlabel1").textContent = day1;
